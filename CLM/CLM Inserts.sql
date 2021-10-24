@@ -5,11 +5,11 @@ INSERT INTO [Lawmingo_AspNetIdentityDb].[dbo].[Contacts]
 (  [Id],[UserContactId],[CreatedBy],Created)
 VALUES
 ( 
- NEWID() , 'a6d562a6-93a3-490b-b38c-68696b40d322', '6a4bec4a-6526-4e9d-8302-00131186462c' , '2021-08-24 02:30:14.1872181'
+ NEWID() , 'c637da78-aeaa-4309-a3c6-95f397be0e25', '67754278-596b-4e53-866d-29bcb9e03cdc' , '2021-08-24 02:30:14.1872181'
 )
 
 SELECT * FROM [Lawmingo_AspNetIdentityDb].[dbo].[Contacts]
-  WHERE CreatedBy ='6a4bec4a-6526-4e9d-8302-00131186462c' and UserContactId ='a6d562a6-93a3-490b-b38c-68696b40d322'
+  WHERE CreatedBy ='6a4bec4a-6526-4e9d-8302-00131186462c' and UserContactId ='bd60cb38-61dc-4991-954e-5e02ddb6b58e'
 
 DELETE FROM [Lawmingo_AspNetIdentityDb].[dbo].[Contacts]
   WHERE CreatedBy ='6a4bec4a-6526-4e9d-8302-00131186462c' and UserContactId ='a6d562a6-93a3-490b-b38c-68696b40d322'

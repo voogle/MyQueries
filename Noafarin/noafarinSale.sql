@@ -5,7 +5,7 @@ join [lawmingo_DB].[PsmUser].[UserContracts] uc on uc.UserContractID = pl.UserCo
 join [lawmingo_DB].[PsmUser].[Contract] c on c.ContractID = uc.ContractID
 WHERE u.RefrenceID is not null AND Amount < 0 and u.RefrenceID <> '55-55-55-5555' and u.Id <> '77455567-e014-4379-9fd0-6b313ed922bc'
 order by time desc
-|
+
 
 
 

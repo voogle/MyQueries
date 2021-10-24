@@ -1,16 +1,4 @@
-select *
-from
-   [Lawmingo_AspNetIdentityDb].[dbo].[AspNetUsers]
-  -- where PhoneNumber = '09026001395'  or UserName  ='09026001395' or NormalizedUserName ='09026001395'
-  -- where UserName like '%09036330386%'
-WHERE  family is Not null
-order by RegisterDate desc
 
-update    [Lawmingo_AspNetIdentityDb].[dbo].[AspNetUsers]
-  set PhoneNumber = '09026001395' , UserName ='09026001395' , NormalizedUserName='09026001395'
-  --set Avatar ='http://185.8.175.213:26500/Users/Avatars/e7f92627-6261-4631-9d73-96f5a3ee4f13.png'
-  where UserName = '09101757395'
-  
   delete [Lawmingo_ClmDb].[dbo].[Memberships]
 WHERE userid ='7bbf8aaaaaaaaaaaaaaaaaaaa852-42b1-4a3d-ac68-83cfb8538d3a'
 
