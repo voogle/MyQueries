@@ -16,6 +16,6 @@ WHERE DocumentId = '7d9d93d2-b984-455e-9a0d-1f7ecb30b8d0'
 ORDER BY Created desc
 GO
 
-  DELETE from  [Lawmingo_ClmDb].[dbo].[Documents]
-  WHERE Created > '2021-09-19 22:01:06.9313632' and IsTemplate = 0
+  -- DELETE from  [Lawmingo_ClmDb].[dbo].[Documents]
+  -- WHERE Created > '2021-09-19 22:01:06.9313632' and IsTemplate = 0
 
